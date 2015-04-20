@@ -1,14 +1,17 @@
-# YosemiForge
-Fontforge Theme
+##YosemiForge
+A FontForge theme in Yosemite style with colors, icons/graphics + fonts.
+
+![screenshot](https://raw.githubusercontent.com/andreaslarsen/yosemiforge/master/Resources/YosemiForgeScreenshot.png)
 
 ##Install
-###Mac
+#####Mac
 Just run InstallYosemiForge - note that this will overwrite the default FontForge graphics
-###Manually
+#####Manually
 Copy the content of the Pixmaps folder to FontForge.app/Contents/Resources/opt/local/share/fontforge/pixmaps
 
-##Pixmaps@2x
-Doesn't work - just saved here for potential future use
-
 ##Ideas/suggestions
-Please let me know
+Please let me know and send me your edits.<br>
+It has some [issues](https://github.com/andreaslarsen/YosemiForge/issues) you can help fix
+
+#####Colors
+I've used [Base16](https://github.com/chriskempson/base16) CodeSchool

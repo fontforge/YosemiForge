@@ -81,7 +81,7 @@ fontforge.View.Background: #ffffff
 
 Gdraw.Background: #d4d4d4
 Gdraw.Foreground: #3d4143
-Gdraw.ScreenWidthCentimeters: 89.8358
+Gdraw.ScreenWidthCentimeters: 90.7915
 
 Gdraw.GProgress.Font: 400 10pt Clear Sans
 Gdraw.GProgress.Foreground: #3d4143

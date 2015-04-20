@@ -1,7 +1,7 @@
 fontforge.FontView.GlyphInfoColor: #37444b
-fontforge.FontView.EmptySlotFgColor: #969B9E
+fontforge.FontView.EmptySlotFgColor: #969b9e
 fontforge.FontView.SelectedColor: #c1e0f8
-fontforge.FontView.SelectedFgColor: #2E3A40
+fontforge.FontView.SelectedFgColor: #2e3a40
 fontforge.FontView.ChangedColor: #a6cfa3
 fontforge.FontView.HintingNeededColor: #b03030
 fontforge.FontView.FontSize: 12
@@ -15,17 +15,17 @@ fontforge.CharView.ExtremePointColor: #37444b
 fontforge.CharView.PointOfInflectionColor: #37444b
 fontforge.CharView.AlmostHVColor: #2aa198
 fontforge.CharView.NextCPColor: #37444b
-fontforge.CharView.PrevCPColor: #c0433e
+fontforge.CharView.PrevCPColor: #37444b
 fontforge.CharView.SelectedCPColor: #ffffff
 fontforge.CharView.CoordinateLineColor: #808080
 fontforge.CharView.ItalicCoordColor: #969b9e
 fontforge.CharView.MetricsLabelColor: #969b9e
 fontforge.CharView.HintLabelColor: #c1e0f8
-fontforge.CharView.BlueValuesStippledColor: #ffffff
-fontforge.CharView.FamilyBlueStippledColor: #ffffff
-fontforge.CharView.DHintColor: #c1e0f8
-fontforge.CharView.HHintColor: #b5d6b2
-fontforge.CharView.VHintColor: #c1e0f8
+fontforge.CharView.BlueValuesStippledColor: #feffffff
+fontforge.CharView.FamilyBlueStippledColor: #feffffff
+fontforge.CharView.DHintColor: #fec1e0f8
+fontforge.CharView.HHintColor: #feb5d6b2
+fontforge.CharView.VHintColor: #fec1e0f8
 fontforge.CharView.HFlexHintColor: #52910d
 fontforge.CharView.VFlexHintColor: #52910d
 fontforge.CharView.ConflictHintColor: #c0433e
@@ -47,13 +47,14 @@ fontforge.CharView.TransformOriginColor: #37444b
 fontforge.CharView.GuideOutlineColor: #969b9e
 fontforge.CharView.GridFitOutlineColor: #52910d
 fontforge.CharView.BackgroundOutlineColor: #52910d
-fontforge.CharView.ForegroundOutlineColor: #2E3A40
-fontforge.CharView.ForegroundThickOutlineColor: #37444b
+fontforge.CharView.ForegroundOutlineColor: #2e3a40
+fontforge.CharView.BackgroundThickOutlineColor: #20707070
+fontforge.CharView.ForegroundThickOutlineColor: #fe37444b
 fontforge.CharView.ClipPathColor: #3669a2
 fontforge.CharView.OpenPathColor: #c0433e
 fontforge.CharView.BackgroundImageColor: #fe37444b
-fontforge.CharView.FillColor: #2E3A40
-fontforge.CharView.PreviewFillColor: #2E3A40
+fontforge.CharView.FillColor: #fe2e3a40
+fontforge.CharView.PreviewFillColor: #fe2e3a40
 fontforge.CharView.TraceColor: #52910d
 fontforge.CharView.RasterColor: #fed4d4d4
 fontforge.CharView.RasterNewColor: #fed4d4d4
@@ -101,7 +102,7 @@ Gdraw.GGadget.Box.DoDepressedBackground: False
 Gdraw.GGadget.Box.DrawDefault: False
 Gdraw.GGadget.Box.GradientBG: False
 Gdraw.GGadget.Box.NormalForeground: #37444b
-Gdraw.GGadget.Box.DisabledForeground: #AEB6B5
+Gdraw.GGadget.Box.DisabledForeground: #aeb6b5
 Gdraw.GGadget.Box.NormalBackground: #d4d4d4
 Gdraw.GGadget.Box.DisabledBackground: #d4d4d4
 Gdraw.GGadget.Box.PressedBackground: #37444b
@@ -145,11 +146,13 @@ Gdraw.GDefaultButton.Box.GradientBG: False
 Gdraw.GDefaultButton.Box.NormalForeground: #ffffff
 Gdraw.GDefaultButton.Box.NormalBackground: #3669a2
 Gdraw.GDefaultButton.Box.PressedBackground: #294f7a
+Gdraw.GDefaultButton.Box.GradientStartCol: #d4d4d4
 
 Gdraw.GCancelButton.Box.GradientBG: False
 Gdraw.GCancelButton.Box.NormalForeground: #ffffff
 Gdraw.GCancelButton.Box.NormalBackground: #c0433e
 Gdraw.GCancelButton.Box.PressedBackground: #9a3532
+Gdraw.GCancelButton.Box.GradientStartCol: #d4d4d4
 
 Gdraw.GColorButton.Box.DoDepressedBackground: False
 
@@ -211,7 +214,7 @@ Gdraw.GList.Font: 400 10pt Clear Sans
 
 Gdraw.GScrollBar.Box.BorderOuter: False
 Gdraw.GScrollBar.Box.NormalBackground: #d4d4d4
-Gdraw.GScrollBar.Box.BorderType: lowered
+Gdraw.GScrollBar.Box.BorderType: none
 Gdraw.GScrollBar.Box.BorderShape: rect
 Gdraw.GScrollBar.Box.BorderWidth: 0
 Gdraw.GScrollBar.Box.Padding: 4
@@ -242,11 +245,6 @@ Gdraw.GMenuBar.Box.Padding: 4
 Gdraw.GMenuBar.Font: 400 10pt Clear Sans
 
 Gdraw.GMenu.Box.BorderOuter: False
-Gdraw.GMenu.Box.BorderBrightest: #37444b
-Gdraw.GMenu.Box.BorderBrighter: #37444b
-Gdraw.GMenu.Box.BorderDarker: #37444b
-Gdraw.GMenu.Box.BorderDarkest: #37444b
-Gdraw.GMenu.Box.BorderOuterCol: #37444b
 Gdraw.GMenu.Box.BorderShape: roundrect
 Gdraw.GMenu.Box.Padding: 4
 Gdraw.GMenu.Font: 400 10pt Clear Sans
@@ -260,20 +258,23 @@ Gdraw.GMatrixEdit.Box.BorderWidth: 0
 Gdraw.GMatrixEdit.Box.Padding: 2
 Gdraw.GMatrixEdit.Font: 400 10pt Clear Sans
 
-Gdraw.GMatrixEdit.TitleBG: #37444b
+Gdraw.GMatrixEdit.TitleBG: #969b9e
 Gdraw.GMatrixEdit.TitleFG: #ffffff
-Gdraw.GMatrixEdit.TitleDivider: #37444b
-Gdraw.GMatrixEdit.RuleCol: #37444b
-Gdraw.GMatrixEdit.FrozenCol: #dc322f
-Gdraw.GMatrixEdit.ActiveCol: #3669a2
-Gdraw.GMatrixEdit.ActiveBG: #708ffc
+Gdraw.GMatrixEdit.TitleDivider: #969b9e
+Gdraw.GMatrixEdit.RuleCol: #969b9e
+Gdraw.GMatrixEdit.FrozenCol: #c0433e
+Gdraw.GMatrixEdit.ActiveCol: #37444b
+Gdraw.GMatrixEdit.ActiveBG: #c1e0f8
 Gdraw.GMatrixEdit.TitleFont: 400 10pt Clear Sans
 
 Gdraw.GDrawable.Box.BorderType: none
 Gdraw.GDrawable.Box.BorderWidth: 0
 Gdraw.GDrawable.Box.Padding: 2
 
-Gdraw.GTabSet.Box.BorderShape: rect
+Gdraw.GTabSet.Box.BorderShape: roundrect
 Gdraw.GTabSet.Box.BorderWidth: 0
 
+Gdraw.GVTabSet.Box.DoDepressedBackground: True
+Gdraw.GVTabSet.Box.PressedBackground: #ffffff
+Gdraw.GVTabSet.Box.Padding: 0
 

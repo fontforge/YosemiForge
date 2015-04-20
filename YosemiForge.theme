@@ -1,4 +1,4 @@
-fontforge.FontView.GlyphInfoColor: #3669A2
+fontforge.FontView.GlyphInfoColor: #3669a2
 fontforge.FontView.EmptySlotFgColor: #a0a6aa
 fontforge.FontView.SelectedColor: #c1e0f8
 fontforge.FontView.SelectedFgColor: #242728
@@ -31,8 +31,8 @@ fontforge.CharView.VFlexHintColor: #52910d
 fontforge.CharView.ConflictHintColor: #c0433e
 fontforge.CharView.HHintActiveColor: #52910d
 fontforge.CharView.VHintActiveColor: #3669a2
-fontforge.CharView.DraggingComparisonOutlineColor: #c0433e
-fontforge.CharView.DraggingComparisonAlphaChannelOverride: #c0433e
+fontforge.CharView.DraggingComparisonOutlineColor: #fec0433e
+fontforge.CharView.DraggingComparisonAlphaChannelOverride: #fec0433e
 
 fontforge.CharView.WidthColor: #969b9e
 fontforge.CharView.WidthSelColor: #c0433e
@@ -48,13 +48,13 @@ fontforge.CharView.GuideOutlineColor: #969b9e
 fontforge.CharView.GridFitOutlineColor: #52910d
 fontforge.CharView.BackgroundOutlineColor: #52910d
 fontforge.CharView.ForegroundOutlineColor: #3d4143
-fontforge.CharView.BackgroundThickOutlineColor: #52910d
-fontforge.CharView.ForegroundThickOutlineColor: #3d4143
+fontforge.CharView.BackgroundThickOutlineColor: #fe52910d
+fontforge.CharView.ForegroundThickOutlineColor: #fe3d4143
 fontforge.CharView.ClipPathColor: #3669a2
 fontforge.CharView.OpenPathColor: #c0433e
 fontforge.CharView.BackgroundImageColor: #fe3d4143
-fontforge.CharView.FillColor: #969B9E
-fontforge.CharView.PreviewFillColor: #0c0d0d
+fontforge.CharView.FillColor: #fe969b9e
+fontforge.CharView.PreviewFillColor: #fe0c0d0d
 fontforge.CharView.TraceColor: #c0433e
 fontforge.CharView.RasterColor: #fed4d4d4
 fontforge.CharView.RasterNewColor: #fed4d4d4
@@ -102,10 +102,10 @@ Gdraw.GGadget.Box.DoDepressedBackground: False
 Gdraw.GGadget.Box.DrawDefault: False
 Gdraw.GGadget.Box.GradientBG: False
 Gdraw.GGadget.Box.NormalForeground: #3d4143
-Gdraw.GGadget.Box.DisabledForeground: #a0a6aa
+Gdraw.GGadget.Box.DisabledForeground: #949596
 Gdraw.GGadget.Box.NormalBackground: #d4d4d4
-Gdraw.GGadget.Box.DisabledBackground: #d4d4d4
-Gdraw.GGadget.Box.PressedBackground: #3d4143
+Gdraw.GGadget.Box.DisabledBackground: #ffffff
+Gdraw.GGadget.Box.PressedBackground: #ebebeb
 Gdraw.GGadget.Box.GradientStartCol: #d4d4d4
 Gdraw.GGadget.Box.BorderBrightest: #d4d4d4
 Gdraw.GGadget.Box.BorderBrighter: #d4d4d4

@@ -26,4 +26,4 @@ It has some [issues](https://github.com/andreaslarsen/YosemiForge/issues) you ca
 I've used [Base16](https://github.com/chriskempson/base16) CodeSchool
 
 #####Pixmaps@2x
-Useless now, but added because it wasn't any extra work and who knows what will happen in the future...
+Useless now, but added because it wasn't any extra work.

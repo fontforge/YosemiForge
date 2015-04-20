@@ -165,14 +165,12 @@ Gdraw.GRadio.Box.Padding: 2
 Gdraw.GRadio.Font: 400 10pt Clear Sans
 
 Gdraw.GRadioOn.Box.DoDepressedBackground: False
-Gdraw.GRadioOn.Box.PressedBackground: #c1e0f8
 Gdraw.GRadioOn.Box.BorderType: none
 Gdraw.GRadioOn.Box.BorderShape: roundrect
 Gdraw.GRadioOn.Image: radio_on.png
 Gdraw.GRadioOn.DisabledImage: radio_on.png
 
 Gdraw.GRadioOff.Box.DoDepressedBackground: False
-Gdraw.GRadioOff.Box.PressedBackground: #d4d4d4
 Gdraw.GRadioOff.Box.BorderType: none
 Gdraw.GRadioOff.Box.BorderShape: roundrect
 Gdraw.GRadioOff.Image: radio_off.png
@@ -183,14 +181,12 @@ Gdraw.GCheckBox.Box.Padding: 2
 Gdraw.GCheckBox.Font: 400 10pt Clear Sans
 
 Gdraw.GCheckBoxOn.Box.DoDepressedBackground: False
-Gdraw.GCheckBoxOn.Box.PressedBackground: #c1e0f8
 Gdraw.GCheckBoxOn.Box.BorderType: none
 Gdraw.GCheckBoxOn.Box.BorderShape: roundrect
 Gdraw.GCheckBoxOn.Image: check_on.png
 Gdraw.GCheckBoxOn.DisabledImage: check_on.png
 
 Gdraw.GCheckBoxOff.Box.DoDepressedBackground: False
-Gdraw.GCheckBoxOff.Box.PressedBackground: #d4d4d4
 Gdraw.GCheckBoxOff.Box.BorderType: none
 Gdraw.GCheckBoxOff.Box.BorderShape: roundrect
 Gdraw.GCheckBoxOff.Image: check_off.png
@@ -214,7 +210,6 @@ Gdraw.GList.Font: 400 10pt Clear Sans
 
 Gdraw.GScrollBar.Box.BorderOuter: False
 Gdraw.GScrollBar.Box.NormalBackground: #d4d4d4
-Gdraw.GScrollBar.Box.DisabledBackground: #d4d4d4
 Gdraw.GScrollBar.Box.BorderType: none
 Gdraw.GScrollBar.Box.BorderShape: rect
 Gdraw.GScrollBar.Box.BorderWidth: 0
@@ -253,7 +248,7 @@ Gdraw.GMenu.Box.BorderDarkest: #3d4143
 Gdraw.GMenu.Box.BorderShape: roundrect
 Gdraw.GMenu.Box.Padding: 4
 Gdraw.GMenu.Font: 400 10pt Clear Sans
-Gdraw.GMenu.MacIcons: True
+Gdraw.GMenu.MacIcons: False
 
 Gdraw.GMatrixEdit.Box.NormalBackground: #d4d4d4
 Gdraw.GMatrixEdit.Box.DisabledBackground: #ffffff

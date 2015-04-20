@@ -22,6 +22,9 @@ The InstallYosemiForge script can be updated to work here too
 Please let me know and send me your edits.<br>
 It has some [issues](https://github.com/andreaslarsen/YosemiForge/issues) you can help fix
 
+##Todo
+Fix windows version see #1
+
 #####Colors
 I've used [Base16](https://github.com/chriskempson/base16) CodeSchool
 

@@ -81,7 +81,7 @@ fontforge.View.Background: #ffffff
 
 Gdraw.Background: #d4d4d4
 Gdraw.Foreground: #3d4143
-Gdraw.ScreenWidthCentimeters: 91.7677
+Gdraw.ScreenWidthCentimeters: 15
 
 Gdraw.GProgress.Font: 400 10pt Clear Sans
 Gdraw.GProgress.Foreground: #3d4143
@@ -121,12 +121,11 @@ Gdraw.GGadget.Box.Padding: 2
 Gdraw.GGadget.Box.Radius: 3
 Gdraw.GGadget.Font: 400 10pt Clear Sans
 Gdraw.GGadget.TextImageSkip: 4
-Gdraw.GGadget.ImagePath: =
+Gdraw.GGadget.ImagePath: 
 
 Gdraw.GListMark.Box.BorderWidth: 0
 Gdraw.GListMark.Box.Padding: 2
-Gdraw.GListMark.Image: downarrow.png
-Gdraw.GListMark.Width: 9
+Gdraw.GListMark.Width: 8
 
 Gdraw.GLabel.Box.BorderType: none
 Gdraw.GLabel.Box.BorderWidth: 0
@@ -141,22 +140,18 @@ Gdraw.GButton.Box.NormalBackground: #ffffff
 Gdraw.GButton.Font: 400 10pt Clear Sans
 Gdraw.GButton.ShiftOnPress: False
 
-Gdraw.GDefaultButton.Box.BorderOuter: True
 Gdraw.GDefaultButton.Box.NormalForeground: #ffffff
 Gdraw.GDefaultButton.Box.NormalBackground: #3669a2
 Gdraw.GDefaultButton.Box.PressedBackground: #294f7a
 Gdraw.GDefaultButton.Box.GradientStartCol: #b7ceeb
 
-Gdraw.GCancelButton.Box.BorderOuter: True
 Gdraw.GCancelButton.Box.NormalForeground: #ffffff
 Gdraw.GCancelButton.Box.NormalBackground: #c0433e
 Gdraw.GCancelButton.Box.PressedBackground: #9a3532
 Gdraw.GCancelButton.Box.GradientStartCol: #ebb4a0
 
-Gdraw.GColorButton.Box.BorderOuter: True
 Gdraw.GColorButton.Box.DoDepressedBackground: False
 
-Gdraw.GDropList.Box.BorderOuter: True
 
 Gdraw.GRadio.Box.BorderType: none
 Gdraw.GRadio.Box.Padding: 2
@@ -166,15 +161,11 @@ Gdraw.GRadioOn.Box.DoDepressedBackground: False
 Gdraw.GRadioOn.Box.PressedBackground: #c1e0f8
 Gdraw.GRadioOn.Box.BorderType: raised
 Gdraw.GRadioOn.Box.BorderShape: diamond
-Gdraw.GRadioOn.Image: radio_on.png
-Gdraw.GRadioOn.DisabledImage: radio_on.png
 
 Gdraw.GRadioOff.Box.DoDepressedBackground: False
 Gdraw.GRadioOff.Box.PressedBackground: #d4d4d4
 Gdraw.GRadioOff.Box.BorderType: lowered
 Gdraw.GRadioOff.Box.BorderShape: diamond
-Gdraw.GRadioOff.Image: radio_off.png
-Gdraw.GRadioOff.DisabledImage: radio_off.png
 
 Gdraw.GCheckBox.Box.BorderType: none
 Gdraw.GCheckBox.Box.Padding: 2
@@ -184,15 +175,11 @@ Gdraw.GCheckBoxOn.Box.DoDepressedBackground: False
 Gdraw.GCheckBoxOn.Box.PressedBackground: #c1e0f8
 Gdraw.GCheckBoxOn.Box.BorderType: raised
 Gdraw.GCheckBoxOn.Box.BorderShape: roundrect
-Gdraw.GCheckBoxOn.Image: check_on.png
-Gdraw.GCheckBoxOn.DisabledImage: check_on.png
 
 Gdraw.GCheckBoxOff.Box.DoDepressedBackground: False
 Gdraw.GCheckBoxOff.Box.PressedBackground: #d4d4d4
 Gdraw.GCheckBoxOff.Box.BorderType: lowered
 Gdraw.GCheckBoxOff.Box.BorderShape: roundrect
-Gdraw.GCheckBoxOff.Image: check_off.png
-Gdraw.GCheckBoxOff.DisabledImage: check_off.png
 
 Gdraw.GTextField.Box.NormalBackground: #ffffff
 Gdraw.GTextField.Box.Padding: 2
@@ -250,7 +237,7 @@ Gdraw.GMenu.Box.BorderDarkest: #3d4143
 Gdraw.GMenu.Box.BorderShape: roundrect
 Gdraw.GMenu.Box.Padding: 4
 Gdraw.GMenu.Font: 400 10pt Clear Sans
-Gdraw.GMenu.MacIcons: False
+Gdraw.GMenu.MacIcons: True
 
 Gdraw.GMatrixEdit.Box.NormalBackground: #d4d4d4
 Gdraw.GMatrixEdit.Box.DisabledBackground: #d4d4d4

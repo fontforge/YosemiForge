@@ -81,6 +81,7 @@ fontforge.View.Background: #ffffff
 
 Gdraw.Background: #d4d4d4
 Gdraw.Foreground: #3d4143
+Gdraw.ScreenWidthInches: 15
 
 Gdraw.GProgress.Font: 400 10pt Clear Sans
 Gdraw.GProgress.Foreground: #3d4143
@@ -120,10 +121,12 @@ Gdraw.GGadget.Box.Padding: 2
 Gdraw.GGadget.Box.Radius: 3
 Gdraw.GGadget.Font: 400 10pt Clear Sans
 Gdraw.GGadget.TextImageSkip: 4
+Gdraw.GGadget.ImagePath: ~/.FontForge/tango-ct.theme:~/.FontForge/tango-ct.theme/tango:/Applications/FontForge.app/Contents/Resources/opt/local/share/fontforge/pixmaps/
 
 Gdraw.GListMark.Box.BorderWidth: 0
 Gdraw.GListMark.Box.Padding: 2
 Gdraw.GListMark.Image: downarrow.png
+Gdraw.GListMark.DisabledImage: downarrow.png
 Gdraw.GListMark.Width: 8
 
 Gdraw.GLabel.Box.BorderType: none
@@ -144,15 +147,14 @@ Gdraw.GDefaultButton.Box.GradientBG: False
 Gdraw.GDefaultButton.Box.NormalForeground: #ffffff
 Gdraw.GDefaultButton.Box.NormalBackground: #3669a2
 Gdraw.GDefaultButton.Box.PressedBackground: #294f7a
-Gdraw.GDefaultButton.Box.GradientStartCol: #b7ceeb
+Gdraw.GDefaultButton.Box.GradientStartCol: #d4d4d4
 
 Gdraw.GCancelButton.Box.GradientBG: False
 Gdraw.GCancelButton.Box.NormalForeground: #ffffff
 Gdraw.GCancelButton.Box.NormalBackground: #c0433e
 Gdraw.GCancelButton.Box.PressedBackground: #9a3532
-Gdraw.GCancelButton.Box.GradientStartCol: #ebb4a0
+Gdraw.GCancelButton.Box.GradientStartCol: #d4d4d4
 
-Gdraw.GColorButton.Box.DoDepressedBackground: False
 
 Gdraw.GDropList.Box.BorderType: none
 Gdraw.GDropList.Box.BorderShape: roundrect
@@ -164,15 +166,15 @@ Gdraw.GRadio.Font: 400 10pt Clear Sans
 
 Gdraw.GRadioOn.Box.DoDepressedBackground: False
 Gdraw.GRadioOn.Box.PressedBackground: #c1e0f8
-Gdraw.GRadioOn.Box.BorderType: raised
-Gdraw.GRadioOn.Box.BorderShape: diamond
+Gdraw.GRadioOn.Box.BorderType: none
+Gdraw.GRadioOn.Box.BorderShape: roundrect
 Gdraw.GRadioOn.Image: radio_on.png
 Gdraw.GRadioOn.DisabledImage: radio_on.png
 
 Gdraw.GRadioOff.Box.DoDepressedBackground: False
 Gdraw.GRadioOff.Box.PressedBackground: #d4d4d4
-Gdraw.GRadioOff.Box.BorderType: lowered
-Gdraw.GRadioOff.Box.BorderShape: diamond
+Gdraw.GRadioOff.Box.BorderType: none
+Gdraw.GRadioOff.Box.BorderShape: roundrect
 Gdraw.GRadioOff.Image: radio_off.png
 Gdraw.GRadioOff.DisabledImage: radio_off.png
 
@@ -182,14 +184,14 @@ Gdraw.GCheckBox.Font: 400 10pt Clear Sans
 
 Gdraw.GCheckBoxOn.Box.DoDepressedBackground: False
 Gdraw.GCheckBoxOn.Box.PressedBackground: #c1e0f8
-Gdraw.GCheckBoxOn.Box.BorderType: raised
+Gdraw.GCheckBoxOn.Box.BorderType: none
 Gdraw.GCheckBoxOn.Box.BorderShape: roundrect
 Gdraw.GCheckBoxOn.Image: check_on.png
 Gdraw.GCheckBoxOn.DisabledImage: check_on.png
 
 Gdraw.GCheckBoxOff.Box.DoDepressedBackground: False
 Gdraw.GCheckBoxOff.Box.PressedBackground: #d4d4d4
-Gdraw.GCheckBoxOff.Box.BorderType: lowered
+Gdraw.GCheckBoxOff.Box.BorderType: none
 Gdraw.GCheckBoxOff.Box.BorderShape: roundrect
 Gdraw.GCheckBoxOff.Image: check_off.png
 Gdraw.GCheckBoxOff.DisabledImage: check_off.png
@@ -204,7 +206,7 @@ Gdraw.GComboBoxMenu.Box.Padding: 2
 
 Gdraw.GNumericFieldSpinner.Box.BorderType: none
 Gdraw.GNumericFieldSpinner.Box.BorderWidth: 0
-Gdraw.GNumericFieldSpinner.Box.Padding: 3
+Gdraw.GNumericFieldSpinner.Box.Padding: 2
 
 Gdraw.GList.Box.BorderOuter: False
 Gdraw.GList.Box.NormalBackground: #ffffff
@@ -212,6 +214,7 @@ Gdraw.GList.Font: 400 10pt Clear Sans
 
 Gdraw.GScrollBar.Box.BorderOuter: False
 Gdraw.GScrollBar.Box.NormalBackground: #d4d4d4
+Gdraw.GScrollBar.Box.DisabledBackground: #d4d4d4
 Gdraw.GScrollBar.Box.BorderType: none
 Gdraw.GScrollBar.Box.BorderShape: rect
 Gdraw.GScrollBar.Box.BorderWidth: 0
@@ -231,7 +234,7 @@ Gdraw.GLine.Box.BorderShape: roundrect
 Gdraw.GLine.Box.Padding: 2
 
 Gdraw.GGroup.Box.NormalBackground: #d4d4d4
-Gdraw.GGroup.Box.DisabledBackground: #d4d4d4
+Gdraw.GGroup.Box.DisabledBackground: #ffffff
 Gdraw.GGroup.Box.BorderType: none
 Gdraw.GGroup.Box.BorderShape: roundrect
 Gdraw.GGroup.Box.Padding: 2
@@ -253,7 +256,7 @@ Gdraw.GMenu.Font: 400 10pt Clear Sans
 Gdraw.GMenu.MacIcons: True
 
 Gdraw.GMatrixEdit.Box.NormalBackground: #d4d4d4
-Gdraw.GMatrixEdit.Box.DisabledBackground: #d4d4d4
+Gdraw.GMatrixEdit.Box.DisabledBackground: #ffffff
 Gdraw.GMatrixEdit.Box.BorderType: none
 Gdraw.GMatrixEdit.Box.BorderShape: roundrect
 Gdraw.GMatrixEdit.Box.BorderWidth: 0

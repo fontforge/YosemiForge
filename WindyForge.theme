@@ -250,7 +250,7 @@ Gdraw.GMenu.Box.BorderDarkest: #3d4143
 Gdraw.GMenu.Box.BorderShape: roundrect
 Gdraw.GMenu.Box.Padding: 4
 Gdraw.GMenu.Font: 400 10pt Clear Sans
-Gdraw.GMenu.MacIcons: True
+Gdraw.GMenu.MacIcons: False
 
 Gdraw.GMatrixEdit.Box.NormalBackground: #d4d4d4
 Gdraw.GMatrixEdit.Box.DisabledBackground: #d4d4d4

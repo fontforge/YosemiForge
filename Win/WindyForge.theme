@@ -81,7 +81,7 @@ fontforge.View.Background: #ffffff
 
 Gdraw.Background: #d4d4d4
 Gdraw.Foreground: #3d4143
-Gdraw.ScreenWidthCentimeters: 90.7915
+Gdraw.ScreenWidthCentimeters: 91.7677
 
 Gdraw.GProgress.Font: 400 10pt Clear Sans
 Gdraw.GProgress.Foreground: #3d4143
@@ -126,7 +126,7 @@ Gdraw.GGadget.ImagePath: =
 Gdraw.GListMark.Box.BorderWidth: 0
 Gdraw.GListMark.Box.Padding: 2
 Gdraw.GListMark.Image: downarrow.png
-Gdraw.GListMark.Width: 8
+Gdraw.GListMark.Width: 9
 
 Gdraw.GLabel.Box.BorderType: none
 Gdraw.GLabel.Box.BorderWidth: 0

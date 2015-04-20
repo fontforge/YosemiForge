@@ -74,7 +74,7 @@ fontforge.MetricsView.AdvanceWidthColor: #37444b
 fontforge.MetricsView.ItalicAdvanceColor: #37444b
 fontforge.MetricsView.KernLineColor: #52910d
 fontforge.MetricsView.SideBearingLineColor: #3669a2
-fontforge.MetricsView.SelectedGlyphColor: #c0433e
+fontforge.MetricsView.SelectedGlyphColor: #c1e0f8
 
 fontforge.View.Background: #ffffff
 
@@ -203,7 +203,7 @@ Gdraw.GComboBoxMenu.Box.Padding: 2
 
 Gdraw.GNumericFieldSpinner.Box.BorderType: none
 Gdraw.GNumericFieldSpinner.Box.BorderWidth: 0
-Gdraw.GNumericFieldSpinner.Box.Padding: 5
+Gdraw.GNumericFieldSpinner.Box.Padding: 3
 
 Gdraw.GList.Box.BorderOuter: False
 Gdraw.GList.Box.NormalBackground: #ffffff

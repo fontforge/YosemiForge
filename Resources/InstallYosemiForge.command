@@ -4,7 +4,7 @@ read input_variable
 mkdir -p $input_variable
 cp -a /Applications/FontForge.app/Contents/Resources/opt/local/share/fontforge/pixmaps/. $input_variable/
 cp -a Pixmaps/. /Applications/FontForge.app/Contents/Resources/opt/local/share/fontforge/pixmaps/
-echo "osascript -e 'tell app "System Events" to display dialog "1) Open FontForge and select: File → Preferences → Generic → ResourceFile → WhereYouSavedIt/YosemiForge.theme
+osascript -e 'tell app "System Events" to display dialog "1) Open FontForge and select: File → Preferences → Generic → ResourceFile → WhereYouSavedIt/YosemiForge.theme
 
 2) Quit and reopen FontForge
 

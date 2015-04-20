@@ -81,6 +81,7 @@ fontforge.View.Background: #ffffff
 
 Gdraw.Background: #d4d4d4
 Gdraw.Foreground: #3d4143
+Gdraw.ScreenWidthCentimeters: 89.8358
 
 Gdraw.GProgress.Font: 400 10pt Clear Sans
 Gdraw.GProgress.Foreground: #3d4143
@@ -120,6 +121,7 @@ Gdraw.GGadget.Box.Padding: 2
 Gdraw.GGadget.Box.Radius: 3
 Gdraw.GGadget.Font: 400 10pt Clear Sans
 Gdraw.GGadget.TextImageSkip: 4
+Gdraw.GGadget.ImagePath: =
 
 Gdraw.GListMark.Box.BorderWidth: 0
 Gdraw.GListMark.Box.Padding: 2
@@ -131,32 +133,30 @@ Gdraw.GLabel.Box.BorderWidth: 0
 Gdraw.GLabel.Box.Padding: 2
 Gdraw.GLabel.Font: 400 10pt Clear Sans
 
+Gdraw.GButton.Box.BorderInner: False
+Gdraw.GButton.Box.BorderOuter: False
 Gdraw.GButton.Box.DoDepressedBackground: True
+Gdraw.GButton.Box.DrawDefault: False
 Gdraw.GButton.Box.NormalBackground: #ffffff
-Gdraw.GButton.Box.BorderType: none
-Gdraw.GButton.Box.BorderShape: roundrect
-Gdraw.GButton.Box.BorderWidth: 0
-Gdraw.GButton.Box.Padding: 2
 Gdraw.GButton.Font: 400 10pt Clear Sans
 Gdraw.GButton.ShiftOnPress: False
 
-Gdraw.GDefaultButton.Box.GradientBG: False
+Gdraw.GDefaultButton.Box.BorderOuter: True
 Gdraw.GDefaultButton.Box.NormalForeground: #ffffff
 Gdraw.GDefaultButton.Box.NormalBackground: #3669a2
 Gdraw.GDefaultButton.Box.PressedBackground: #294f7a
 Gdraw.GDefaultButton.Box.GradientStartCol: #b7ceeb
 
-Gdraw.GCancelButton.Box.GradientBG: False
+Gdraw.GCancelButton.Box.BorderOuter: True
 Gdraw.GCancelButton.Box.NormalForeground: #ffffff
 Gdraw.GCancelButton.Box.NormalBackground: #c0433e
 Gdraw.GCancelButton.Box.PressedBackground: #9a3532
 Gdraw.GCancelButton.Box.GradientStartCol: #ebb4a0
 
+Gdraw.GColorButton.Box.BorderOuter: True
 Gdraw.GColorButton.Box.DoDepressedBackground: False
 
-Gdraw.GDropList.Box.BorderType: none
-Gdraw.GDropList.Box.BorderShape: roundrect
-Gdraw.GDropList.Box.BorderWidth: 0
+Gdraw.GDropList.Box.BorderOuter: True
 
 Gdraw.GRadio.Box.BorderType: none
 Gdraw.GRadio.Box.Padding: 2

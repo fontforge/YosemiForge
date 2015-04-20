@@ -1,5 +1,5 @@
 ##YosemiForge
-A FontForge theme in Yosemite style with both colors and icons.
+A FontForge theme in Yosemite style with colors, icons/graphics + fonts.
 
 ![screenshot](https://raw.githubusercontent.com/andreaslarsen/yosemiforge/master/Resources/YosemiForgeScreenshot.png)
 

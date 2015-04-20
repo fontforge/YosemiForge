@@ -32,7 +32,7 @@ fontforge.CharView.ConflictHintColor: #c0433e
 fontforge.CharView.HHintActiveColor: #52910d
 fontforge.CharView.VHintActiveColor: #3669a2
 fontforge.CharView.DraggingComparisonOutlineColor: #c0433e
-fontforge.CharView.DraggingComparisonAlphaChannelOverride: #3d4143
+fontforge.CharView.DraggingComparisonAlphaChannelOverride: #c0433e
 
 fontforge.CharView.WidthColor: #969b9e
 fontforge.CharView.WidthSelColor: #c0433e

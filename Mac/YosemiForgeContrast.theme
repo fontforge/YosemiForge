@@ -139,7 +139,7 @@ Gdraw.GButton.Box.NormalBackground: #ffffff
 Gdraw.GButton.Box.BorderType: none
 Gdraw.GButton.Box.BorderShape: roundrect
 Gdraw.GButton.Box.BorderWidth: 0
-Gdraw.GButton.Box.Padding: 3
+Gdraw.GButton.Box.Padding: 2
 Gdraw.GButton.Font: 400 10pt Clear Sans
 Gdraw.GButton.ShiftOnPress: False
 

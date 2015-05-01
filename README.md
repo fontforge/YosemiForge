@@ -1,7 +1,7 @@
 ##YosemiForge
 Normal, contrast and dark FontForge themes with changed colors, icons/graphics + fonts. Note that these themes replaces the default pixmaps folder so you might want to back that up first and quit FontForge before installing.
 
-![screenshot](https://raw.githubusercontent.com/andreaslarsen/yosemiforge/master/Resources/YosemiForgeScreenshot.png)
+![screenshot](https://raw.githubusercontent.com/andreaslarsen/yosemiforge/master/Resources/yfdScreenshot.png)
 
 ##Install+run on Mac
 

@@ -8,7 +8,7 @@ Normal, contrast and dark FontForge themes with changed colors, icons/graphics +
 #####Install
 [Download](https://github.com/fontforge/YosemiForge/archive/master.zip)/[fork](https://github.com/fontforge/YosemiForge#fork-destination-box) and put the YosemiForge folder whereever you like.
 #####Run
-"yfn", "yfc" or "yfd" in spotlight for normal, contrast and dark.
+yfn = normal, yfc = contrast, yfd = dark
 
 ![screenshot](https://raw.githubusercontent.com/andreaslarsen/yosemiforge/master/Resources/yfc.png)
 

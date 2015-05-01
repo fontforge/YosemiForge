@@ -1,0 +1,9 @@
+rm -r /Applications/FontForge.app/Contents/Resources/opt/local/share/fontforge/pixmaps/*
+cd "`dirname "$0"`"
+cp -a PixmapsDark/. /Applications/FontForge.app/Contents/Resources/opt/local/share/fontforge/pixmaps/
+echo '/Applications/FontForge.app/Contents/Resources/opt/local/share/fontforge/pixmaps/YosemiForgeDark.theme' | pbcopy
+osascript -e 'tell app "System Events" to display dialog "FontForge: File → Preferences → Generic → ResourceFile → cmd+v
+
+Quit+Reopen FontForge" with title "Path to the theme file added to your clipboard" buttons "Cheers"'
+osascript -e 'tell application "Terminal" to quit' &
+exit

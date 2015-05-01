@@ -7,15 +7,15 @@ fontforge.FontView.HintingNeededColor: #c0433e
 fontforge.FontView.FontSize: 12
 fontforge.FontView.FontFamily: Font View, DejaVu Sans, Monaco, monospace, unifont
 
-fontforge.CharView.PointColor: #d4d4d4
-fontforge.CharView.FirstPointColor: #d4d4d4
+fontforge.CharView.PointColor: #3d4143
+fontforge.CharView.FirstPointColor: #3d4143
 fontforge.CharView.SelectedPointColor: #c0433e
 fontforge.CharView.SelectedPointWidth: 2
-fontforge.CharView.ExtremePointColor: #d4d4d4
-fontforge.CharView.PointOfInflectionColor: #d4d4d4
+fontforge.CharView.ExtremePointColor: #3d4143
+fontforge.CharView.PointOfInflectionColor: #3d4143
 fontforge.CharView.AlmostHVColor: #2aa198
-fontforge.CharView.NextCPColor: #d4d4d4
-fontforge.CharView.PrevCPColor: #d4d4d4
+fontforge.CharView.NextCPColor: #3d4143
+fontforge.CharView.PrevCPColor: #3d4143
 fontforge.CharView.SelectedCPColor: #ffffff
 fontforge.CharView.CoordinateLineColor: #808080
 fontforge.CharView.ItalicCoordColor: #969b9e
@@ -290,6 +290,5 @@ Gdraw.GTabSet.Box.BorderShape: roundrect
 Gdraw.GTabSet.Box.BorderWidth: 0
 
 Gdraw.GVTabSet.Box.DoDepressedBackground: True
-Gdraw.GVTabSet.Box.PressedBackground: #ffffff
 Gdraw.GVTabSet.Box.Padding: 0
 

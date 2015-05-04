@@ -292,3 +292,5 @@ Gdraw.GTabSet.Box.BorderWidth: 0
 Gdraw.GVTabSet.Box.DoDepressedBackground: True
 Gdraw.GVTabSet.Box.Padding: 0
 
+Gdraw.GVisibilityBoxOn.Image:visiblility_on.png
+Gdraw.GVisibilityBoxOff.Image:visiblility_off.png

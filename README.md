@@ -1,7 +1,7 @@
 ##YosemiForge
 Normal, contrast and dark FontForge themes with changed colors, icons/graphics + fonts. 
 
-![screenshot](https://raw.githubusercontent.com/andreaslarsen/yosemiforge/master/Resources/yfdScreenshot.png)
+![screenshot](https://raw.githubusercontent.com/andreaslarsen/yosemiforge/master/Resources/Screenshot1.png)
 
 ##Mac
 
@@ -9,7 +9,7 @@ Normal, contrast and dark FontForge themes with changed colors, icons/graphics +
 * Quit FontForge
 * Launch with spotlight: yfn = normal, yfc = contrast, yfd = dark
 
-![screenshot](https://raw.githubusercontent.com/andreaslarsen/yosemiforge/master/Resources/yfc.png)
+![screenshot](https://raw.githubusercontent.com/andreaslarsen/yosemiforge/master/Resources/Screenshot2.png)
 
 ##Win/Linux
 * [Download](https://github.com/fontforge/YosemiForge/archive/master.zip)/[fork](https://github.com/fontforge/YosemiForge#fork-destination-box) and put the YosemiForge folder whereever you like.

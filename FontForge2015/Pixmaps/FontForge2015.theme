@@ -1,11 +1,11 @@
-fontforge.FontView.GlyphInfoColor: #B5D8F6
+fontforge.FontView.GlyphInfoColor: #3669a2
 fontforge.FontView.EmptySlotFgColor: #a0a6aa
 fontforge.FontView.SelectedColor: #c1e0f8
 fontforge.FontView.SelectedFgColor: #242728
 fontforge.FontView.ChangedColor: #a6cfa3
 fontforge.FontView.HintingNeededColor: #c0433e
 fontforge.FontView.FontSize: 12
-fontforge.FontView.FontFamily: Font View, DejaVu Sans, Monaco, monospace, unifont
+fontforge.FontView.FontFamily: Font View, DejaVu Sans, monospace, unifont
 
 fontforge.CharView.PointColor: #3d4143
 fontforge.CharView.FirstPointColor: #3d4143
@@ -14,8 +14,8 @@ fontforge.CharView.SelectedPointWidth: 2
 fontforge.CharView.ExtremePointColor: #3d4143
 fontforge.CharView.PointOfInflectionColor: #3d4143
 fontforge.CharView.AlmostHVColor: #2aa198
-fontforge.CharView.NextCPColor: #3d4143
-fontforge.CharView.PrevCPColor: #3d4143
+fontforge.CharView.NextCPColor: #52910d
+fontforge.CharView.PrevCPColor: #3669a2
 fontforge.CharView.SelectedCPColor: #ffffff
 fontforge.CharView.CoordinateLineColor: #808080
 fontforge.CharView.ItalicCoordColor: #969b9e
@@ -80,6 +80,9 @@ fontforge.MetricsView.SelectedGlyphColor: #c1e0f8
 
 fontforge.View.Background: #ffffff
 
+Gdraw.GVisibilityBoxOn.Image:visiblility_on.png
+Gdraw.GVisibilityBoxOff.Image:visiblility_off.png
+
 Gdraw.Background: #E6E6E6
 Gdraw.Foreground: #3d4143
 
@@ -104,7 +107,7 @@ Gdraw.GGadget.Box.GradientBG: False
 Gdraw.GGadget.Box.NormalForeground: #3d4143
 Gdraw.GGadget.Box.DisabledForeground: #949596
 Gdraw.GGadget.Box.NormalBackground: #E6E6E6
-Gdraw.GGadget.Box.DisabledBackground: #ffffff
+Gdraw.GGadget.Box.DisabledBackground: #E6E6E6
 Gdraw.GGadget.Box.PressedBackground: #E6E6E6
 Gdraw.GGadget.Box.GradientStartCol: #E6E6E6
 Gdraw.GGadget.Box.BorderBrightest: #E6E6E6
@@ -115,13 +118,13 @@ Gdraw.GGadget.Box.BorderInnerCol: #E6E6E6
 Gdraw.GGadget.Box.BorderOuterCol: #84898C
 Gdraw.GGadget.Box.ActiveBorder: #c1e0f8
 Gdraw.GGadget.Box.BorderType: none
-Gdraw.GGadget.Box.BorderShape: roundrect
+Gdraw.GGadget.Box.BorderShape: Rect
 Gdraw.GGadget.Box.BorderWidth: 0
 Gdraw.GGadget.Box.Padding: 2
-Gdraw.GGadget.Box.Radius: 1
+Gdraw.GGadget.Box.Radius: 0
 Gdraw.GGadget.Font: 400 10pt clear sans
 Gdraw.GGadget.TextImageSkip: 4
-Gdraw.GGadget.ImagePath: ~/.FontForge/tango-ct.theme:~/.FontForge/tango-ct.theme/tango:/Applications/FontForge.app/Contents/Resources/opt/local/share/fontforge/pixmaps/
+Gdraw.GGadget.ImagePath: ~/.FontForge/tango-ct.theme:~/.FontForge/tango-ct.theme/tango:/Applications/FontForge.app/Contents/Resources/opt/local/share/fontforge/pixmaps/:=
 
 Gdraw.GListMark.Box.BorderWidth: 0
 Gdraw.GListMark.Box.Padding: 2
@@ -137,8 +140,9 @@ Gdraw.GLabel.Font: 400 10pt clear sans
 Gdraw.GButton.Box.BorderOuter: True
 Gdraw.GButton.Box.DoDepressedBackground: True
 Gdraw.GButton.Box.NormalBackground: #ffffff
+Gdraw.GButton.Box.DisabledBackground: #ffffff
 Gdraw.GButton.Box.BorderType: none
-Gdraw.GButton.Box.BorderShape: roundrect
+Gdraw.GButton.Box.BorderShape: Rect
 Gdraw.GButton.Box.BorderWidth: 0
 Gdraw.GButton.Box.Padding: 2
 Gdraw.GButton.Font: 400 10pt clear sans
@@ -162,7 +166,7 @@ Gdraw.GCancelButton.Box.BorderOuterCol: #611A1A
 
 
 Gdraw.GDropList.Box.BorderType: none
-Gdraw.GDropList.Box.BorderShape: roundrect
+Gdraw.GDropList.Box.BorderShape: Rect
 Gdraw.GDropList.Box.BorderWidth: 0
 
 Gdraw.GRadio.Box.BorderType: none
@@ -171,13 +175,13 @@ Gdraw.GRadio.Font: 400 10pt clear sans
 
 Gdraw.GRadioOn.Box.DoDepressedBackground: False
 Gdraw.GRadioOn.Box.BorderType: none
-Gdraw.GRadioOn.Box.BorderShape: roundrect
+Gdraw.GRadioOn.Box.BorderShape: Rect
 Gdraw.GRadioOn.Image: radio_on.png
 Gdraw.GRadioOn.DisabledImage: radio_on.png
 
 Gdraw.GRadioOff.Box.DoDepressedBackground: False
 Gdraw.GRadioOff.Box.BorderType: none
-Gdraw.GRadioOff.Box.BorderShape: roundrect
+Gdraw.GRadioOff.Box.BorderShape: Rect
 Gdraw.GRadioOff.Image: radio_off.png
 Gdraw.GRadioOff.DisabledImage: radio_off.png
 
@@ -187,13 +191,13 @@ Gdraw.GCheckBox.Font: 400 10pt clear sans
 
 Gdraw.GCheckBoxOn.Box.DoDepressedBackground: False
 Gdraw.GCheckBoxOn.Box.BorderType: none
-Gdraw.GCheckBoxOn.Box.BorderShape: roundrect
+Gdraw.GCheckBoxOn.Box.BorderShape: Rect
 Gdraw.GCheckBoxOn.Image: check_on.png
 Gdraw.GCheckBoxOn.DisabledImage: check_on.png
 
 Gdraw.GCheckBoxOff.Box.DoDepressedBackground: False
 Gdraw.GCheckBoxOff.Box.BorderType: none
-Gdraw.GCheckBoxOff.Box.BorderShape: roundrect
+Gdraw.GCheckBoxOff.Box.BorderShape: Rect
 Gdraw.GCheckBoxOff.Image: check_off.png
 Gdraw.GCheckBoxOff.DisabledImage: check_off.png
 
@@ -202,24 +206,19 @@ Gdraw.GTextField.Box.NormalBackground: #ffffff
 Gdraw.GTextField.Box.Padding: 2
 Gdraw.GTextField.Font: 400 10pt clear sans
 
-
-Gdraw.GComboBoxMenu.Box.ShadowOuter: True
-Gdraw.GComboBoxMenu.Box.Padding: 2
-
-
 Gdraw.GNumericFieldSpinner.Box.BorderType: none
 Gdraw.GNumericFieldSpinner.Box.BorderWidth: 0
 Gdraw.GNumericFieldSpinner.Box.Padding: 2
 
 Gdraw.GList.Box.BorderOuter: True
 Gdraw.GList.Box.NormalBackground: #ffffff
+Gdraw.GList.Box.ActiveBorder: #c1e0f8
 Gdraw.GList.Font: 400 10pt clear sans
 
 Gdraw.GScrollBar.Box.BorderOuter: False
 Gdraw.GScrollBar.Box.NormalBackground: #E6E6E6
 Gdraw.GScrollBar.Box.BorderOuterCol: #E6E6E6
 Gdraw.GScrollBar.Box.BorderType: none
-Gdraw.GScrollBar.Box.BorderShape: rect
 Gdraw.GScrollBar.Box.BorderWidth: 0
 Gdraw.GScrollBar.Box.Padding: 4
 
@@ -231,39 +230,47 @@ Gdraw.GScrollBarThumb.Box.BorderDarkest: #3d4143
 Gdraw.GScrollBarThumb.Box.BorderWidth: 0
 Gdraw.GScrollBarThumb.Box.Padding: 2
 Gdraw.GScrollBarThumb.Box.Radius: 10
+Gdraw.GScrollBarThumb.Box.BorderShape: roundrect
 
 Gdraw.GLine.Box.NormalForeground: #E6E6E6
 Gdraw.GLine.Box.BorderType: none
-Gdraw.GLine.Box.BorderShape: roundrect
+Gdraw.GLine.Box.BorderShape: Rect
 Gdraw.GLine.Box.Padding: 2
 
 Gdraw.GGroup.Box.NormalBackground: #E6E6E6
 Gdraw.GGroup.Box.DisabledBackground: #ffffff
 Gdraw.GGroup.Box.BorderType: none
-Gdraw.GGroup.Box.BorderShape: roundrect
+Gdraw.GGroup.Box.BorderShape: Rect
 Gdraw.GGroup.Box.Padding: 2
 
 Gdraw.GMenuBar.Box.BorderOuter: False
-Gdraw.GMenuBar.Box.BorderShape: roundrect
+Gdraw.GMenuBar.Box.BorderShape: Rect
 Gdraw.GMenuBar.Box.BorderWidth: 0
-Gdraw.GMenuBar.Box.Padding: 4
+Gdraw.GMenuBar.Box.Padding: 2
+Gdraw.GMenuBar.Box.ActiveBorder: #f9f9f9
 Gdraw.GMenuBar.Font: 400 10pt clear sans
 
 Gdraw.GMenu.Box.BorderOuter: False
-Gdraw.GMenu.Box.ShadowOuter: True
+Gdraw.GMenu.Box.NormalBackground: #f9f9f9
+Gdraw.GMenu.Box.DisabledBackground: #f9f9f9
+Gdraw.GMenu.Box.DisabledForeground: #b2b3b3
+Gdraw.GMenu.Box.ActiveBorder: #c1e0f8
 Gdraw.GMenu.Box.BorderBrightest: #3d4143
 Gdraw.GMenu.Box.BorderBrighter: #3d4143
 Gdraw.GMenu.Box.BorderDarker: #3d4143
 Gdraw.GMenu.Box.BorderDarkest: #3d4143
+Gdraw.GMenu.Box.BorderType: raised
 Gdraw.GMenu.Box.BorderShape: roundrect
-Gdraw.GMenu.Box.Padding: 4
+Gdraw.GMenu.Box.BorderWidth: 0
+Gdraw.GMenu.Box.Padding: 2
+Gdraw.GMenu.Box.Radius: 1
 Gdraw.GMenu.Font: 400 10pt clear sans
 Gdraw.GMenu.MacIcons: False
 
 Gdraw.GMatrixEdit.Box.NormalBackground: #E6E6E6
 Gdraw.GMatrixEdit.Box.DisabledBackground: #ffffff
 Gdraw.GMatrixEdit.Box.BorderType: none
-Gdraw.GMatrixEdit.Box.BorderShape: roundrect
+Gdraw.GMatrixEdit.Box.BorderShape: Rect
 Gdraw.GMatrixEdit.Box.BorderWidth: 0
 Gdraw.GMatrixEdit.Box.Padding: 2
 Gdraw.GMatrixEdit.Font: 400 10pt clear sans
@@ -281,12 +288,10 @@ Gdraw.GDrawable.Box.BorderType: none
 Gdraw.GDrawable.Box.BorderWidth: 0
 Gdraw.GDrawable.Box.Padding: 2
 
-Gdraw.GTabSet.Box.BorderShape: roundrect
+Gdraw.GTabSet.Box.BorderShape: Rect
 Gdraw.GTabSet.Box.BorderWidth: 0
 
 Gdraw.GVTabSet.Box.DoDepressedBackground: True
 Gdraw.GVTabSet.Box.PressedBackground: #ffffff
 Gdraw.GVTabSet.Box.Padding: 0
 
-Gdraw.GVisibilityBoxOn.Image:visiblility_on.png
-Gdraw.GVisibilityBoxOff.Image:visiblility_off.png

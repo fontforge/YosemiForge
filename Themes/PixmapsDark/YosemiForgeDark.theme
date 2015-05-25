@@ -251,19 +251,25 @@ Gdraw.GGroup.Box.Padding: 2
 Gdraw.GMenuBar.Box.BorderOuter: False
 Gdraw.GMenuBar.Box.BorderShape: roundrect
 Gdraw.GMenuBar.Box.BorderWidth: 0
-Gdraw.GMenuBar.Box.Padding: 4
+Gdraw.GMenuBar.Box.Padding: 2
+Gdraw.GMenuBar.Box.ActiveBorder: #303436
 Gdraw.GMenuBar.Font: 400 10pt clear sans
 
+Gdraw.GMenu.Box.DisabledForeground: #4b4e4e
 Gdraw.GMenu.Box.BorderOuter: False
-Gdraw.GMenu.Box.ShadowOuter: True
-Gdraw.GMenu.Box.BorderBrightest: #d4d4d4
-Gdraw.GMenu.Box.BorderBrighter: #d4d4d4
-Gdraw.GMenu.Box.BorderDarker: #d4d4d4
-Gdraw.GMenu.Box.BorderDarkest: #d4d4d4
+Gdraw.GMenu.Box.NormalBackground: #303436
+Gdraw.GMenu.Box.ActiveBorder: #4F83CC
+Gdraw.GMenu.Box.BorderBrightest: #555B5D
+Gdraw.GMenu.Box.BorderBrighter: #303436
+Gdraw.GMenu.Box.BorderDarker: #555B5D
+Gdraw.GMenu.Box.BorderDarkest: #555B5D
+Gdraw.GMenu.Box.BorderType: none
 Gdraw.GMenu.Box.BorderShape: roundrect
-Gdraw.GMenu.Box.Padding: 4
+Gdraw.GMenu.Box.BorderWidth: 1
+Gdraw.GMenu.Box.Padding: 2
+Gdraw.GMenu.Box.Radius: 1
 Gdraw.GMenu.Font: 400 10pt clear sans
-Gdraw.GMenu.MacIcons: True
+Gdraw.GMenu.MacIcons: False
 
 Gdraw.GMatrixEdit.Box.NormalBackground: #555B5D
 Gdraw.GMatrixEdit.Box.DisabledBackground: #d4d4d4
